@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+   
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.generatedNumber {
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+}
+

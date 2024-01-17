@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(194, 176, 148);
+}
+.container{
+    display: flex;
+    flex-direction: row  ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    color: rgb(248, 248, 233);
+    font-weight: 550;
+    
+}
+.container i{
+    font-size: 20px;
+}
+span{
+    font-size: 10px;
+}
+
+@media ( max-width: 100px){
+    .container{
+  
+       flex-direction: column;
+       height: auto;
+    }
+}

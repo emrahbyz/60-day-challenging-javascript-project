@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+.text-div{
+    color: green;
+}
+#textDiv{
+    font-size: 24px;
+}
+input{
+    padding: 5px;
+    outline: none;
+    border: 2px solid black;
+}
+button{
+    margin: 20px;
+    padding: 7px;
+    color: lime;
+    border-radius: 8px;
+    background-color: green;
+    outline: none;
+
+}

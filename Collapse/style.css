@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&family=Open+Sans:wght@400;500&family=Roboto:wght@500&family=Rubik+Scribble&display=swap');
+:root{
+    --orange-color: orange;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family:'Montserrat';
+background-color: rgb(238, 234, 229);
+}
+
+ h1{
+  
+    color: #f1f1f1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 70px;
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+
+
+}
+
+.box {
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    
+  }
+.box.active{
+    background-color: transparent;
+ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+ 
+ border: 1px solid var(--orange-color)
+
+}
+
+
+.box .faq{
+    color: #e73f3f;
+   
+    left: 20px;
+    width: 80%;
+    font-size: 15px;
+}
+.box .faqOne{
+    display: none;
+ margin: 30px 0 0;
+}
+.box.active .faqOne{
+    display: block;
+
+}
+
+
+.box p{
+    
+    top: 30px;
+}
+.buttonType{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    transition: 0.3s ease;
+}
+
+
+.box.active .buttonType {
+    color: var(--orange-color);
+  }
+  
+  .box .fa-xmark {
+    display: none;
+  }
+  
+  .box.active .buttonType .fa-xmark {
+    display: block;
+  }
+  
+  .box.active   .buttonType .fa-angle-down {
+    display: none;
+  }

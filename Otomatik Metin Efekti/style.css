@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{ --color-background : green;}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: var(--color-background) ;
+    font-weight: bold;
+    background-color: rgb(10, 8, 8);
+}
+
+.content{
+    font-size: 20px;
+}
+.speed{
+    position: absolute;
+    bottom: 50px;
+    padding: 5px 10px;
+    background-color:rgba(16, 83, 39, 0.185) ;
+    border-radius: 5px;
+}
+input{
+    width: 50px;
+    padding: 3px;
+    border: none;
+    background-color: var(--color-background);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+
+}
+input:focus{
+    outline: none;
+}

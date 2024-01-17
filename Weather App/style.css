@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(photo.avif) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+h1{
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+    font-weight: 600;
+
+
+}
+.container input{
+    width: 23%
+}
+#app{
+ border: none;
+background: transparent;
+border-radius: 5px;
+border-bottom: 2px solid rgb(218, 174, 32);
+padding: 10px 10px;
+
+outline: none;
+color:#f1f1f1;
+text-align: center;
+font-size: 20px;
+
+}
+#app:active{
+   scale: 0.99;
+}
+::placeholder{
+    color: rgb(247, 239, 209);
+    font-size: 20px ;
+    font-weight: 400;
+}
+.content{
+    padding: 20px;
+    color: #f1f1f1;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.content .temp{
+font-size: 80px;
+}

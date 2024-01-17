@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    color: #fff;
+    
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    height: 40vh;
+    width: 30%;
+    background-color: rgb(25, 30, 39);
+    border-radius: 10px;
+   gap: 20px;
+   transition: all 0.5s ease;
+
+}
+.dices{
+    display: flex;
+     gap: 70px;
+    
+    .shake {
+        animation: shake 0.8s infinite ;
+        
+    }
+}
+
+
+@keyframes shake {
+    0%{
+        transform: rotate(8deg);
+    }
+    
+    50%{
+        transform: rotate(-8deg);
+    }
+    
+    100%{
+        transform: rotate(8deg);
+    }
+}
+#text{
+    font-size: 24px;
+}
+#buttons{
+    padding: 10px;
+    font-size: 18px;
+    background-color: teal;
+    color: #fff;
+   
+    
+  
+}
