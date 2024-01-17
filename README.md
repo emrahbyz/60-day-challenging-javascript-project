@@ -1,2 +1,3 @@
 # 60-day-challenging-javascript-project
- 37 Javascript projesinden oluşan bir repo
+ İçerisinde 37 Adet Javascript projesi bulunmaktadır.
+ Kolay orta ve zor olarak projeler bulunmaktadır.
